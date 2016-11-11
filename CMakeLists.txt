@@ -6,7 +6,6 @@ set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  rospy
   std_msgs
 )
 
@@ -48,9 +47,9 @@ QT4_WRAP_UI( UI_HEADERS ${UIS} )
 QT4_WRAP_CPP( MOC_SRCS ${MOC_HEADERS} )
 
 # compile
-add_executable( gauges ${SOURCES} ${MOC_SRCS} ${RES_SOURCES} ${UI_HEADERS} )
+add_executable( gauges ${QT_SOURCES} ${SOURCES} ${MOC_SRCS} ${RES_SOURCES} ${UI_HEADERS} )
 
-# build it (link libraries)
+# link libraries
 target_link_libraries( gauges ${QT_LIBRARIES} ${catkin_LIBRARIES} )
 
 # For installing the debian
@@ -64,7 +63,6 @@ install(TARGETS ${PROJECT_NAME}
 install(DIRECTORY include/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
   FILES_MATCHING PATTERN "*.h"
-  PATTERN ".svn" EXCLUDE
 )
 
 # Install the launch files
