@@ -1,3 +1,26 @@
+## gauges (indigo) - 1.0.2-0
+
+The packages in the `gauges` repository were released into the `indigo` distro by running `/usr/bin/bloom-release gauges --track indigo --rosdistro indigo` on `Fri, 11 Nov 2016 17:55:07 -0000`
+
+The `gauges` package was released.
+
+Version of package(s) in repository `gauges`:
+
+- upstream repository: https://github.com/UTNuclearRoboticsPublic/gauges.git
+- release repository: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
+- rosdistro version: `1.0.1-2`
+- old version: `1.0.1-2`
+- new version: `1.0.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## gauges (kinetic) - 1.0.1-0
 
 The packages in the `gauges` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic gauges --edit` on `Wed, 09 Nov 2016 19:53:11 -0000`
