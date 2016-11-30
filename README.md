@@ -1,3 +1,28 @@
+## gauges (jade) - 1.0.3-0
+
+The packages in the `gauges` repository were released into the `jade` distro by running `/usr/bin/bloom-release gauges --track jade --rosdistro jade` on `Wed, 30 Nov 2016 19:47:11 -0000`
+
+These packages were released:
+- `gauges`
+- `rqt_gauges`
+
+Version of package(s) in repository `gauges`:
+
+- upstream repository: https://github.com/UTNuclearRoboticsPublic/gauges.git
+- release repository: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
+- rosdistro version: `1.0.2-0`
+- old version: `1.0.2-0`
+- new version: `1.0.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## gauges (indigo) - 1.0.3-0
 
 The packages in the `gauges` repository were released into the `indigo` distro by running `/usr/bin/bloom-release gauges --track indigo --rosdistro indigo` on `Wed, 30 Nov 2016 19:42:16 -0000`
