@@ -1,0 +1,12 @@
+Source: ros-jade-gauges
+Section: misc
+Priority: extra
+Maintainer: andyz <andyz@utexas.edu>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, ros-jade-catkin, ros-jade-roscpp, ros-jade-std-msgs
+Homepage: http://wiki.ros.org/gauges
+Standards-Version: 3.9.2
+
+Package: ros-jade-gauges
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, ros-jade-roscpp, ros-jade-std-msgs
+Description: Launch virtual gauges for ROS topics.
