@@ -1,0 +1,12 @@
+Source: ros-kinetic-rqt-gauges
+Section: misc
+Priority: extra
+Maintainer: Lucas Walter <lucasw_backwards@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-cpp, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/rqt/Tutorials/Writing%20a%20C%2B%2B%20Plugin
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rqt-gauges
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-cpp, ros-kinetic-std-msgs
+Description: The rqt_gauges package
