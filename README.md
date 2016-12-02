@@ -1,3 +1,26 @@
+## gauges (kinetic) - 1.0.6-0
+
+The packages in the `gauges` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release gauges --track kinetic --rosdistro kinetic` on `Fri, 02 Dec 2016 23:12:58 -0000`
+
+The `rqt_gauges` package was released.
+
+Version of package(s) in repository `gauges`:
+
+- upstream repository: https://github.com/UTNuclearRoboticsPublic/gauges.git
+- release repository: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
+- rosdistro version: `1.0.5-0`
+- old version: `1.0.5-0`
+- new version: `1.0.6-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## gauges (jade) - 1.0.6-0
 
 The packages in the `gauges` repository were released into the `jade` distro by running `/usr/bin/bloom-release gauges --track jade --rosdistro jade` on `Fri, 02 Dec 2016 23:08:29 -0000`
