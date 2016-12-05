@@ -1,0 +1,12 @@
+Source: ros-jade-rqt-gauges
+Section: misc
+Priority: extra
+Maintainer: AndyZ <andyz@utexas.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-roslint, ros-jade-rqt-gui, ros-jade-rqt-gui-cpp, ros-jade-std-msgs
+Homepage: http://wiki.ros.org/gauges
+Standards-Version: 3.9.2
+
+Package: ros-jade-rqt-gauges
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-rqt-gui, ros-jade-rqt-gui-cpp, ros-jade-std-msgs
+Description: The rqt_gauges package
